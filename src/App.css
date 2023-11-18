@@ -111,9 +111,23 @@ body {
     width: 100%;
     font-size: .9rem;
 }
+.card-img {
+    position: relative;
+}
 .card-img img {
     width: 100%;
     border-radius: 10px;
+}
+.popular-pill {
+    background-color: var(--popular-color);
+    color: var(--container-color);
+    font-weight: 600;
+    font-size: .9rem;
+    padding: 5px 8px;
+    border-radius: 100vmax;
+    position: absolute;
+    top: 5%;
+    left: 5%;
 }
 .description {
     display: flex;

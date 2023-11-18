@@ -7,6 +7,7 @@ export const Card = ({data}) => {
         <div className="card">
             <div className="card-img">
                 <img src={data.image} alt={data.name} />
+                {(data.popular === true) && <span className="popular-pill">Popular</span>}
             </div>
             <div className='description'>
                 <p>{data.name}</p>
