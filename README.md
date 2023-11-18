@@ -19,7 +19,7 @@ This projects has been carried out using the React library trough Vite. In this 
     ```bash
         npm install
     ```
-4. 
+
 
 ## Demo
 https://efelipa-simple-coffee.netlify.app/
